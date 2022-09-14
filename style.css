@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--day);
+    width: 100%;
+}
+
+:root {
+    --night: #000;
+    --iconColor: #222;
+    --day: #fff;
+    --primary: #D7E6F5;
+}
+
+@font-face {
+    font-family: "medium.woff2";
+    src: url(assets/fonts/Graphik-Medium-Web.woff2);
+}
+
+@font-face {
+    font-family: "regular.woff2";
+    src: url(assets/fonts/Graphik-Regular-Web.woff2);
+}
+
+@font-face {
+    font-family: "egypTT.woff2";
+    src: url(assets/fonts/Guardian-EgypTT-Light.woff2);
+}
+input{
+    border: none;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-bar {
+    padding: 5px 0;
+    width: 100%;
+    background-color: var(--day);
+    box-shadow: 0 4px 20px rgb(34 34 34 / 15%);
+}
+
+.page-icon {
+    padding: 0 0 0 10px;
+}
+
+.search-box input {
+    border: none;
+    padding: 5px;
+    width: 110px;
+    height: 44px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: #f4f4f4;
+}
+
+.search-box {
+    background-color: #f4f4f4;
+    border: 2px solid var(--iconColor);
+    border-radius: 50px;
+    padding: 0 0 0 5px;
+    margin: 0 5px;
+}
+
+.search-icon {
+    padding: 10px 5px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+
+.search-icon:active {
+    background-color: var(--night);
+    fill: var(--day);
+}
+
+.navBar-menu object:nth-child(2) {
+    margin: 0 0 0 3px;
+}
+
+.navBar-menu object:nth-child(3) {
+    margin: 0 0 0 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "regular.woff2";
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: var(--iconColor);
+}
+
+.hcontainer img {
+    width: 87px;
+    height: 87px;
+    border-radius: 100px;
+    margin-bottom: 5px;
+}
+
+.hcontainer div{
+    width: 79px;
+} 
+
+.hsection2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    position: absolute;
+    top:100px;
+    left: 12px;
+}
+
+
+.hsection1 {
+    font-family: "egypTT.woff2";
+    font-weight: 300;
+    letter-spacing: 0.35px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--iconColor);
+    margin: 20px 0;
+}
+.header-section{
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 196px;
+    margin-bottom: 110px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section-sub-container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-family: "medium.woff2";
+    color: var(--iconColor);
+    margin-bottom: 20px;
+}
+.section1-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    border-radius: 20px;
+    border: 1px solid rgb(202, 199, 199);
+
+}
+.section1-cards img{
+    border-radius: 20px 20px 0 0;
+    width: 145px;
+    height: auto;
+}
+.section1-cards div{
+    font-family: "medium.woff2";
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--iconColor);
+    padding: 20px 0;
+    width: 120px;
+}
+.section-sub-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.section2{
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.section2 div:nth-child(1){
+    width:200px;
+    text-align: center;
+    font-family: "medium.woff2";
+    color: var(--iconColor);
+    margin-bottom: 20px;
+}
+.mail-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "medium.woff2";
+    color: var(--iconColor);
+    background-color: var(--day);
+    margin-top: 10px;
+    padding: 0 0 0 10px;
+    border-radius: 20px;
+
+}
+.mail-box input{
+    width: 100px;
+    font-size: 15px;
+    padding: 10px;
+}
+.mail-box div{
+    border: none;
+    padding:11px;
+    border-radius: 0 20px 20px 0;
+    color: var(--iconColor);
+}
+.mail-box div:active{
+    background-color: var(--iconColor);
+    color: var(--day);
+}
+
+
+
