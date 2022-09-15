@@ -1,136 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.png" sizes="32x32">
     <link rel="stylesheet" href="style.css">
-    <title>etsy Clone </title>
+    <title>Toggle Switch</title>
 </head>
 
-<body>
-    <nav class="nav-bar row">
-        <object class="page-icon" width="50px" height="50px" data="assets/pageIcon.svg"></object>
-        <div class="navBar-menu row">
-            <div class="search-box row">
-                <input type="search" placeholder="Search">
-                <object width="24" height="24" data="assets/searchIcon.svg" class="search-icon"></object>
-            </div>
-            <object width="24px" height="24px" data="assets/logIn.svg">
-            </object>
-            <object width="24px" height="24px" data="assets/cartIcon.svg"></object>
-        </div>
-    </nav>
-    <header class="header-section">
-        <div class="hsection1">
-            Discover one-of-a-kind items from independent creators
-        </div>
-        <div class="hsection2">
-            <div class="hcontainer">
+<body id="forBackground">
+    <div class="toggle" id="toggle-btn">
+        <label>
+            <input type="checkbox">
+            <div class="switch"></div>
+        </label>
+    </div>
+    <div class="container">
+        <h2>Toggle It</h2>
+        <p>
+            To create a toggle switch, we will use HTML and CSS. If you want to add a more attractive toggle switch then
+            you
+            can add sliding animation, bouncing effect, etc. In this article, we will divide the whole thing into two
+            different sections structure creating and designing the structure.
 
-                <img src="assets/headerSectionImg/hsImg1.webp" alt="wall_art">
+            Creating Structure: In this section, we will just create a basic structure for the toggle button. Here all
+            we
+            need to put a checkbox and a label to create in an HTML document like below. We can do that by using the
+            HTML
+            label tag and HTML input type = checkbox.
 
-                <div>Wall Art</div>
-            </div>
-            <div class="hcontainer">
+            HTML code: The HTML code is used to create a structure of toggle switch. Since it does not contain CSS so it
+            is
+            just a simple structure. We will use some CSS property to make it attractive responsive.
+        </p>
+    </div>
+    <script src="index.js"></script>
 
-                <img src="assets/headerSectionImg/hsImg2.webp" alt="home_living">
-
-                <div>Home & Living</div>
-            </div>
-            <div class="hcontainer">
-
-                <img src="assets/headerSectionImg/hsImg3.webp" alt="cloth">
-
-                <div>Clothing</div>
-            </div>
-            <div class="hcontainer">
-
-                <img src="assets/headerSectionImg/hsImg4.webp" alt="jewellery">
-
-                <div>Jewellery</div>
-            </div>
-            <div class="hcontainer">
-
-                <img src="assets/headerSectionImg/hsImg5.webp" alt="wedding">
-
-                <div>wedding</div>
-            </div>
-            <div class="hcontainer">
-
-                <img src="assets/headerSectionImg/hsImg6.webp" alt="sale">
-
-                <div>On Sale</div>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section class="section1">
-            <div class="section-sub-container1">
-                <div>
-                    Shop our selections
-                </div>
-                <object width="24px" height="24px" data="assets/arrowIcon.svg"></object>
-            </div>
-            <div class="section-sub-container2">
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img1.webp" alt="for_home">
-                    <div>For your home</div>
-                </div>
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img2.webp" alt="jewellery_shop">
-                    <div>Jewellery shop</div>
-                </div>
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img3.webp" alt="women_fashion">
-                    <div>Women's fashion</div>
-                </div>
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img4.webp" alt="men_fashion">
-                    <div>Men's fashion</div>
-                </div>
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img5.webp" alt="home_decor">
-                    <div>Home decor & wall art</div>
-                </div>
-                <div class="section1-cards">
-                    <img src="assets/mainSection1/ms1img6.webp" alt="kitchen">
-                    <div>Kitchen and dining</div>
-                </div>
-            </div>
-        </section>
-        <section class="section2">
-            <div>
-                Get unique gift ideas and so much more delivered right to your inbox.
-            </div>
-            <div class="mail-box">
-                <input type="email" placeholder="Enter your email">
-                <div>Subscribe</div>
-            </div>
-
-        </section>
-        <section class="section3">
-            <div class="section-sub-container1">
-                <div>
-                    Fresh from the blog
-                </div>
-                <object width="24px" height="24px" data="assets/arrowIcon.svg"></object>
-
-            </div>
-            <div class="section3-sub-container2">
-                <div class="section3-card">
-                    <img src="" alt="card1img">
-                    <div class="section3-card-details">
-                        <div>Inspiration</div>
-                        <div>5 Etsy Sellers to Bookmark for When You're Redecorating Your Home</div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    </main>
 </body>
 
 </html>
