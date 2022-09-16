@@ -1,38 +1,290 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/favicon.png" sizes="32x32">
     <link rel="stylesheet" href="style.css">
-    <title>Toggle Switch</title>
+    <title>etsy Clone </title>
 </head>
 
-<body id="forBackground">
-    <div class="toggle" id="toggle-btn">
-        <label>
-            <input type="checkbox">
-            <div class="switch"></div>
-        </label>
-    </div>
-    <div class="container">
-        <h2>Toggle It</h2>
-        <p>
-            To create a toggle switch, we will use HTML and CSS. If you want to add a more attractive toggle switch then
-            you
-            can add sliding animation, bouncing effect, etc. In this article, we will divide the whole thing into two
-            different sections structure creating and designing the structure.
+<body>
+    <nav class="nav-bar row">
+        <object class="page-icon" width="60px" height="60px" data="assets/pageIcon.svg"></object>
+        <div class="navBar-menu row">
+            <div class="search-box row">
+                <input type="search" placeholder="Search">
+                <object width="24" height="24" data="assets/searchIcon.svg" class="search-icon"></object>
+            </div>
+            <object width="24px" height="24px" data="assets/logIn.svg">
+            </object>
+            <object width="24px" height="24px" data="assets/cartIcon.svg"></object>
+        </div>
+    </nav>
+    <header class="header-section">
+        <div class="hsection1">
+            Discover one-of-a-kind items from independent creators
+        </div>
+        <div class="hsection2">
+            <div class="hcontainer col">
 
-            Creating Structure: In this section, we will just create a basic structure for the toggle button. Here all
-            we
-            need to put a checkbox and a label to create in an HTML document like below. We can do that by using the
-            HTML
-            label tag and HTML input type = checkbox.
+                <img src="assets/headerSectionImg/hsImg1.webp" alt="wall_art">
 
-            HTML code: The HTML code is used to create a structure of toggle switch. Since it does not contain CSS so it
-            is
-            just a simple structure. We will use some CSS property to make it attractive responsive.
-        </p>
-    </div>
-    <script src="index.js"></script>
+                <div>Wall Art</div>
+            </div>
+            <div class="hcontainer col">
+
+                <img src="assets/headerSectionImg/hsImg2.webp" alt="home_living">
+
+                <div>Home & Living</div>
+            </div>
+            <div class="hcontainer col">
+
+                <img src="assets/headerSectionImg/hsImg3.webp" alt="cloth">
+
+                <div>Clothing</div>
+            </div>
+            <div class="hcontainer col">
+
+                <img src="assets/headerSectionImg/hsImg4.webp" alt="jewellery">
+
+                <div>Jewellery</div>
+            </div>
+            <div class="hcontainer col">
+
+                <img src="assets/headerSectionImg/hsImg5.webp" alt="wedding">
+
+                <div>wedding</div>
+            </div>
+            <div class="hcontainer col">
+
+                <img src="assets/headerSectionImg/hsImg6.webp" alt="sale">
+
+                <div>On Sale</div>
+            </div>
+        </div>
+    </header>
+    <main class="col">
+        <section class="section1 col">
+            <div class="section-sub-container1 row">
+                <div>
+                    Shop our selections
+                </div>
+                <object width="24px" height="24px" data="assets/arrowIcon.svg"></object>
+            </div>
+            <div class="section-sub-container2">
+                <div class="section1-cards col">
+                    <img src="assets/mainSection1/ms1img1.webp" alt="for_home">
+                    <div>For your home</div>
+                </div>
+                <div class="section1-cards">
+                    <img src="assets/mainSection1/ms1img2.webp" alt="jewellery_shop">
+                    <div>Jewellery shop</div>
+                </div>
+                <div class="section1-cards">
+                    <img src="assets/mainSection1/ms1img3.webp" alt="women_fashion">
+                    <div>Women's fashion</div>
+                </div>
+                <div class="section1-cards">
+                    <img src="assets/mainSection1/ms1img4.webp" alt="men_fashion">
+                    <div>Men's fashion</div>
+                </div>
+                <div class="section1-cards">
+                    <img src="assets/mainSection1/ms1img5.webp" alt="home_decor">
+                    <div>Home decor & wall art</div>
+                </div>
+                <div class="section1-cards">
+                    <img src="assets/mainSection1/ms1img6.webp" alt="kitchen">
+                    <div>Kitchen and dining</div>
+                </div>
+            </div>
+        </section>
+        <section class="section2 col">
+            <div>
+                Get unique gift ideas and so much more delivered right to your inbox.
+            </div>
+            <div class="mail-box row">
+                <input type="email" placeholder="Enter your email">
+                <div>Subscribe</div>
+            </div>
+
+        </section>
+        <section class="section3 col">
+            <div class="section-sub-container1 row">
+                <div>
+                    Fresh from the blog
+                </div>
+                <object width="24px" height="24px" data="assets/arrowIcon.svg"></object>
+            </div>
+            <div class="section3-sub-container2 col">
+                <div class="section3-card row">
+                    <div class="img-container1">
+                        <img src="assets/section3/cardImg1.webp" alt="card1img">
+                    </div>
+                    <div class="section3-card-details col">
+                        <div>Inspiration</div>
+                        <div>5 Etsy Sellers to Bookmark for When You're Redecorating Your Home</div>
+                    </div>
+                </div>
+                <div class="section3-card row">
+                    <div class="img-container2">
+                        <img src="assets/section3/cardImg2.avif" alt="card1img">
+                    </div>
+                    <div class="section3-card-details col">
+                        <div>Inspiration</div>
+                        <div>How to Make a Wooden Jewellery Organiser</div>
+                    </div>
+                </div>
+                <div class="section3-card row">
+                    <div class="img-container3">
+                        <img src="assets/section3/cardImg3.avif" alt="card1img">
+                    </div>
+                    <div class="section3-card-details col">
+                        <div>Shopping Guides</div>
+                        <div>Fabulous Fashion Finds For This Festive Season</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="col">
+        <section class="footer-section1">
+            <object width="100%" height="30px" data="assets/footer/footer1.svg"></object>
+            <div class="footerS1-a">
+                <h1>What is Etsy?</h1>
+                <a href="#">Read our wonderfully weird story</a>
+                <div class="footer-subsection">
+                    <h2>A community doing good</h2>
+                    <span>
+                        Etsy is a global online marketplace, where people come together to make, sell, buy and collect
+                        unique items. We’re also a community pushing for positive change for small businesses, people,
+                        and the planet. <span class="para-link">Here are some of the ways we’re making a positive
+                            impact, together.</span>
+                    </span>
+                </div>
+                <div class="footer-subsection">
+                    <h2>Support independent creators</h2>
+                    <span>
+                        There’s no Etsy warehouse – just millions of people selling the things they love. We make the
+                        whole process easy, helping you connect directly with makers to find something extraordinary.
+                    </span>
+                </div>
+                <div class="footer-subsection">
+                    <h2>Peace of mind</h2>
+                    <span>
+                        Your privacy is the highest priority of our dedicated team. And if you ever need assistance, we
+                        are always ready to step in for support.</span>
+                    </span>
+                </div>
+                <div class="footer-subsection-btn col">
+                    <h4> Have a question? Well, we’ve got some answers. </h4>
+                    <button>Go to Help Center</button>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section2">
+            <object width="100%" height="20px" data="assets/footer/footer2.svg" style="margin:0; "></object>
+            <div class="footerS2-b col">
+                <object width="40px" height="40px" data="assets/footer/footerIcon.svg"></object>
+                <a href="#">Etsy is powered by 100% renewable electricity.
+                </a>
+            </div>
+        </section>
+        <section class="footer-section3 col">
+            <ul>
+                <li>
+                    <div class="footer-menu row">
+                        <p>Shop</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path fill="#FFFFFF"
+                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                            </path>
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-menu row">
+                        <p>Sell</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path fill="#FFFFFF"
+                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                            </path>
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-menu row">
+                        <p>About</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path fill="#FFFFFF"
+                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                            </path>
+                        </svg>
+                    </div>
+                </li>
+                <li>
+                    <div class="footer-menu row">
+                        <p>Help</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                            aria-hidden="true" focusable="false">
+                            <path fill="#FFFFFF"
+                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                            </path>
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+            <button class="row">
+                <object width="25px" height="25px" data="assets/footer/footerdDownLoadBtn.svg"></object>
+                <p>Download the Etsy App</p>
+            </button>
+            <div class="social row">
+                <div>
+                    <object width="35px" height="35px" data="assets/social/instagram.svg"></object>
+                </div>
+                <div>
+                    <object width="35px" height="35px" data="assets/social/fb.svg"></object>
+                </div>
+                <div>
+                    <object width="35px" height="35px" data="assets/social/pinterest.svg"></object>
+                </div>
+                <div>
+                    <object width="35px" height="35px" data="assets/social/tweeter.svg"></object>
+                </div>
+                <div>
+                    <object width="35px" height="35px" data="assets/social/youtube.svg"></object>
+                </div>
+            </div>
+        </section>
+        <section class="footer-section4 col">
+            <div class="row">
+                <object width="20px" height="20px" data="assets/footer/globe.svg"></object>
+                <span>&nbsp; India &nbsp; | &nbsp; English (UK) &nbsp; | &nbsp; ₹ (INR)</span>
+            </div>
+            <span>
+                © 2022 Etsy, Inc.
+            </span>
+            <div class="footer-labels col">
+                <div class="row">
+
+                    <div>Terms of Use</div>
+                    <div>Privacy</div>
+                </div>
+                <div class="row">
+
+                    <div>Interest-based ads</div>
+                    <div>Regions</div>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
 
 </body>
 
