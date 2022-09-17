@@ -300,10 +300,13 @@ header{
     gap: 15px;
 }
 
-.section3-card-details div:nth-child(1) {
+.section3-card-details div:nth-child(1),.section3-card-more-info {
     font-family: "regular.woff2";
     font-size: 13px;
     font-weight: 400;
+}
+.section3-card-more-info{
+    display: none;
 }
 
 .section3-card-details div:nth-child(2) {
@@ -436,11 +439,14 @@ a{
     /* background-color: aqua; */
     justify-content: space-between;
 }
+.footer-section3-tab{
+    display: none;
+}
 .footer-menu:active{
     background-color: #465c7e;
 }
 
-.footer-menu p{
+.footer-menu p,.footer-menu-header{
    font-family: "regular.woff2";
    font-weight: 700;
    font-size: 16px;
@@ -498,6 +504,11 @@ a{
     font-weight: 300;
     font-family: "regular.woff2";
 }
+
+.copytab{
+    text-decoration: none;
+    display: none;
+}
 .footer-labels{
     gap:6px;
     flex-wrap: wrap;
@@ -508,17 +519,11 @@ a{
     font-size: 13px;
     font-weight: 300px;
     font-family: "regular.woff2";
-    text-decoration:underline;
 }
-/* .footer-labels div {
-    color: #D7E6F5;
-    font-size: 13px;
-    font-weight: 300;
-    font-family: "regular.woff2";
-    margin-left: 5px;
+.footer-labels div{
     text-decoration: underline;
-    gap:10px
-} */
+}
+
 
 @media screen and (min-width:375px){
     .search-box input{
