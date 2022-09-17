@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/favicon.png" sizes="32x32">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tab.css">
     <title>etsy Clone </title>
 </head>
 
@@ -79,23 +80,23 @@
                     <img src="assets/mainSection1/ms1img1.webp" alt="for_home">
                     <div>For your home</div>
                 </div>
-                <div class="section1-cards">
+                <div class="section1-cards col">
                     <img src="assets/mainSection1/ms1img2.webp" alt="jewellery_shop">
                     <div>Jewellery shop</div>
                 </div>
-                <div class="section1-cards">
+                <div class="section1-cards col">
                     <img src="assets/mainSection1/ms1img3.webp" alt="women_fashion">
                     <div>Women's fashion</div>
                 </div>
-                <div class="section1-cards">
+                <div class="section1-cards col">
                     <img src="assets/mainSection1/ms1img4.webp" alt="men_fashion">
                     <div>Men's fashion</div>
                 </div>
-                <div class="section1-cards">
+                <div class="section1-cards col">
                     <img src="assets/mainSection1/ms1img5.webp" alt="home_decor">
                     <div>Home decor & wall art</div>
                 </div>
-                <div class="section1-cards">
+                <div class="section1-cards col">
                     <img src="assets/mainSection1/ms1img6.webp" alt="kitchen">
                     <div>Kitchen and dining</div>
                 </div>
@@ -126,6 +127,10 @@
                     <div class="section3-card-details col">
                         <div>Inspiration</div>
                         <div>5 Etsy Sellers to Bookmark for When You're Redecorating Your Home</div>
+                        <div class="section3-card-more-info">
+                            Bring home artwork that perfectly matches your personality and seamlessly fits into your
+                            home.
+                        </div>
                     </div>
                 </div>
                 <div class="section3-card row">
@@ -135,6 +140,10 @@
                     <div class="section3-card-details col">
                         <div>Inspiration</div>
                         <div>How to Make a Wooden Jewellery Organiser</div>
+                        <div class="section3-card-more-info">
+                            Keep your accessories organised and within arm's reach with a boho-meets-beachy wooden
+                            organiser.
+                        </div>
                     </div>
                 </div>
                 <div class="section3-card row">
@@ -144,6 +153,9 @@
                     <div class="section3-card-details col">
                         <div>Shopping Guides</div>
                         <div>Fabulous Fashion Finds For This Festive Season</div>
+                        <div class="section3-card-more-info">
+                            Bring in the festivities with outfits that make a style statement.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,72 +204,133 @@
                 </a>
             </div>
         </section>
-        <section class="footer-section3 col">
-            <ul>
-                <li>
-                    <div class="footer-menu row">
-                        <p>Shop</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
-                            aria-hidden="true" focusable="false">
-                            <path fill="#FFFFFF"
-                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
-                            </path>
-                        </svg>
+        <section class="footer-section3">
+            <div class="footer-section3-mob col">
+                <ul>
+                    <li>
+                        <div class="footer-menu row">
+                            <p>Shop</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                                aria-hidden="true" focusable="false">
+                                <path fill="#FFFFFF"
+                                    d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-menu row">
+                            <p>Sell</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                                aria-hidden="true" focusable="false">
+                                <path fill="#FFFFFF"
+                                    d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-menu row">
+                            <p>About</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                                aria-hidden="true" focusable="false">
+                                <path fill="#FFFFFF"
+                                    d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-menu row">
+                            <p>Help</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
+                                aria-hidden="true" focusable="false">
+                                <path fill="#FFFFFF"
+                                    d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </li>
+                </ul>
+                <button class="row">
+                    <object width="25px" height="25px" data="assets/footer/footerdDownLoadBtn.svg"></object>
+                    <p>Download the Etsy App</p>
+                </button>
+                <div class="social row">
+                    <div>
+                        <object width="35px" height="35px" data="assets/social/instagram.svg"></object>
                     </div>
-                </li>
-                <li>
-                    <div class="footer-menu row">
-                        <p>Sell</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
-                            aria-hidden="true" focusable="false">
-                            <path fill="#FFFFFF"
-                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
-                            </path>
-                        </svg>
+                    <div>
+                        <object width="35px" height="35px" data="assets/social/fb.svg"></object>
                     </div>
-                </li>
-                <li>
-                    <div class="footer-menu row">
-                        <p>About</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
-                            aria-hidden="true" focusable="false">
-                            <path fill="#FFFFFF"
-                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
-                            </path>
-                        </svg>
+                    <div>
+                        <object width="35px" height="35px" data="assets/social/pinterest.svg"></object>
                     </div>
-                </li>
-                <li>
-                    <div class="footer-menu row">
-                        <p>Help</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="btn-arrowf" viewBox="0 0 24 24"
-                            aria-hidden="true" focusable="false">
-                            <path fill="#FFFFFF"
-                                d="M12,15.414L7.293,10.707A1,1,0,1,1,8.707,9.293L12,12.586l3.293-3.293a1,1,0,0,1,1.414,1.414Z">
-                            </path>
-                        </svg>
+                    <div>
+                        <object width="35px" height="35px" data="assets/social/tweeter.svg"></object>
                     </div>
-                </li>
-            </ul>
-            <button class="row">
-                <object width="25px" height="25px" data="assets/footer/footerdDownLoadBtn.svg"></object>
-                <p>Download the Etsy App</p>
-            </button>
-            <div class="social row">
-                <div>
-                    <object width="35px" height="35px" data="assets/social/instagram.svg"></object>
+                    <div>
+                        <object width="35px" height="35px" data="assets/social/youtube.svg"></object>
+                    </div>
                 </div>
-                <div>
-                    <object width="35px" height="35px" data="assets/social/fb.svg"></object>
+            </div>
+            <div class="footer-section3-tab row">
+                <div class="footer-menu-subsection col">
+                    <div class="footer-menu-header">Shop</div>
+                    <p>Gift card</p>
+                    <p>Sitemap</p>
+                    <p>Etsy blog</p>
+                    <p>Etsy United Kingdom</p>
+                    <p>Etsy Germany</p>
+                    <p>Etsy Canada</p>
                 </div>
-                <div>
-                    <object width="35px" height="35px" data="assets/social/pinterest.svg"></object>
+                <div class="footer-menu-subsection col">
+                    <div class="footer-menu-header">Sell</div>
+                    <p>Sell on Etsy</p>
+                    <p>Teams</p>
+                    <p>Forums</p>
+                    <p>Affiliates</p>
                 </div>
-                <div>
-                    <object width="35px" height="35px" data="assets/social/tweeter.svg"></object>
+                <div class=" footer-menu-subsection col">
+                    <div class="footer-menu-header">About</div>
+                    <p>Etsy,Inc.</p>
+                    <p>Policies</p>
+                    <p>Investors</p>
+                    <p>Careers</p>
+                    <p>Press</p>
+                    <p>Impact</p>
+                    <p>Legel imprint</p>
                 </div>
-                <div>
-                    <object width="35px" height="35px" data="assets/social/youtube.svg"></object>
+                <div class=" footer-menu-subsection col">
+                    <div class="footer-menu-header">Help</div>
+                    <p>Help Center</p>
+                    <p>Trust and safety</p>
+                    <p>Privacy settings</p>
+                    <div>
+                        <button class="row">
+                            <object width="25px" height="25px" data="assets/footer/footerdDownLoadBtn.svg"></object>
+                            <p>Download the Etsy App</p>
+                        </button>
+                    </div>
+                    <div>
+                        <div class="social row">
+                            <div>
+                                <object width="35px" height="35px" data="assets/social/instagram.svg"></object>
+                            </div>
+                            <div>
+                                <object width="35px" height="35px" data="assets/social/fb.svg"></object>
+                            </div>
+                            <div>
+                                <object width="35px" height="35px" data="assets/social/pinterest.svg"></object>
+                            </div>
+                            <div>
+                                <object width="35px" height="35px" data="assets/social/tweeter.svg"></object>
+                            </div>
+                            <div>
+                                <object width="35px" height="35px" data="assets/social/youtube.svg"></object>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -266,17 +339,19 @@
                 <object width="20px" height="20px" data="assets/footer/globe.svg"></object>
                 <span>&nbsp; India &nbsp; | &nbsp; English (UK) &nbsp; | &nbsp; ₹ (INR)</span>
             </div>
-            <span>
+            <span class="copyright">
                 © 2022 Etsy, Inc.
             </span>
             <div class="footer-labels row">
+                <p class="copytab">
+                    © 2022 Etsy, Inc.
+                </p>
                 <div>Terms of Use</div>
                 <div>Privacy</div>
                 <div>Interest-based ads</div>
                 <div>Regions</div>
             </div>
         </section>
-
     </footer>
 </body>
 
