@@ -36,7 +36,9 @@ body {
     font-family: "egypTT.woff2";
     src: url(assets/fonts/Guardian-EgypTT-Light.woff2);
 }
-
+li{
+    list-style: none;
+}
 input {
     border: none;
 }
@@ -54,6 +56,8 @@ input {
 }
 
 .nav-bar {
+    z-index: 2;
+    position: fixed;
     width: 100%;
     padding: 5px 0;
     width: 100%;
@@ -137,7 +141,7 @@ header{
     row-gap: 20px;
     column-gap: 20px;
     position: absolute;
-    top: 100px;
+    top: 190px;
     left: 12px;
 }
 
@@ -158,9 +162,11 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-bottom: 196px;
+    padding-bottom: 200px;
+    padding-top: 84px;
     margin-bottom: 110px;
 }
+
 
 .section1 {
     margin-bottom: 50px;
@@ -493,9 +499,18 @@ a{
     font-family: "regular.woff2";
 }
 .footer-labels{
-    gap:6px
+    gap:6px;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: var(--day);
+    font-size: 13px;
+    font-weight: 300px;
+    font-family: "regular.woff2";
+    text-decoration:underline;
 }
-.footer-labels div {
+/* .footer-labels div {
     color: #D7E6F5;
     font-size: 13px;
     font-weight: 300;
@@ -503,6 +518,121 @@ a{
     margin-left: 5px;
     text-decoration: underline;
     gap:10px
+} */
+
+@media screen and (min-width:375px){
+    .search-box input{
+        width: 167px;
+    }
+    .hsection2{
+        left: 16px;
+    }
+    .hcontainer img{
+        width: 101px;
+        height: 98px;
+    }
+    .section1-cards img{
+        width: 168px;
+        border-radius: 10px 10px 0 0;
+    }
+    .section1-cards{
+        border-radius: 10px;
+    }
+    .header-section{
+        padding-bottom: 212px;
+    }
+    .section2{
+        width: 343px;
+    }
+    .section2 div:nth-child(1){
+        width: 294px;
+        font-size: 20px;
+    }
+    .mail-box input{
+        width: 170px;
+    }
+    .section3-card{
+        width:341px ;
+        gap:25px;
+    }
+    .section3-card-details div:nth-child(2){
+        width: 140px;
+        font-size: 18px;
+    }
+    .footer-subsection h2{
+        width: 300px;
+    }
+    .footer-subsection span{
+        width: 308px;
+    }
+    .footerS2-b a{
+        width: 286px;
+    }
+    .footer-menu{
+        width: 333px;
+    }
+    .footer-labels{
+       width: 271px ;
+    }
+}
+@media screen and (min-width:425px) {
+    .search-box input{
+        width:217px;
+    }
+    .hsection2{
+        column-gap:45px;
+    }
+    .hsection1{
+        width: 411px;
+    }
+    .section1-cards img{
+        width: 196px;
+    }
+    .section2{
+        width:404px;
+    }
+    .section2 div:nth-child(1){
+        width: 388px;
+    }
+    .mail-box input{
+        width: 232px;
+    }
+    .section3-card{
+        width: 400px;
+        height: 203px;
+    }
+    .img-container1,.img-container2,.img-container3{
+        width: 211px;
+        height: 204px;
+    }
+    .img-container1 img{
+        right:-45px;
+        bottom: -79px;
+    }
+    .img-container2 img {
+        right: 0;
+    }
+    .img-container3 img{
+        right: -2px;
+        bottom: -6px;
+        width: 240px;
+        height: 211px;
+    }
+    .footer-subsection span{
+        width:367px;
+    }
+    .footer-subsection h2{
+        width: 365px;
+    }
+    .footerS2-b a{
+        width: 363px;
+    }
+    .footer-menu{
+        width: 385px;
+    }
+    .footer-labels{
+        width:336px;
+    }
 }
 
 
