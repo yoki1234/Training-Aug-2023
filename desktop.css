@@ -1,0 +1,24 @@
+@media screen and (min-width: 1024px) {
+     .search-box input{
+        width: 924px;
+     }
+     .navBar-menu button{
+        font-size: 13px;
+        font-family: "medium.woff2";
+        padding: 9px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--day);
+        margin-left: 20px;
+        margin-right: 10px;
+     }
+     .navBar-menu button:hover{
+        background-color: var(--primary-btn-bg);
+     }
+     .navBar-menu .login{
+        display: none;
+     }
+     .navBar-menu .like{
+        margin-right: 24px;
+     }
+} 
