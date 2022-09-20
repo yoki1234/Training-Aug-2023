@@ -103,8 +103,12 @@ input {
 }
 
 .navBar-menu object:nth-child(3) {
-    margin: 0 0 0 15px;
+    margin: 0 8px 0 10px;
 }
+.navBar-menu button,.nav-bar .like,.nav-bar-menu,.section-display-desktop{
+    display: none;
+}
+
 
 main {
     background-color: var(--day);

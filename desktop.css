@@ -1,24 +1,101 @@
 @media screen and (min-width: 1024px) {
-     .search-box input{
-        width: 924px;
-     }
-     .navBar-menu button{
-        font-size: 13px;
-        font-family: "medium.woff2";
-        padding: 9px 15px;
-        border-radius: 20px;
-        border: none;
-        background-color: var(--day);
-        margin-left: 20px;
-        margin-right: 10px;
-     }
-     .navBar-menu button:hover{
-        background-color: var(--primary-btn-bg);
-     }
-     .navBar-menu .login{
-        display: none;
-     }
-     .navBar-menu .like{
-        margin-right: 24px;
-     }
-} 
+   .search-box input {
+      width: 924px;
+   }
+
+   .navBar-menu button {
+      font-size: 13px;
+      font-family: "medium.woff2";
+      padding: 9px 15px;
+      border-radius: 20px;
+      border: none;
+      background-color: var(--day);
+      margin-left: 20px;
+      margin-right: 10px;
+   }
+
+   .navBar-menu button:hover {
+      background-color: var(--primary-btn-bg);
+   }
+
+   .navBar-menu .login {
+      display: none;
+   }
+
+   .navBar-menu .like {
+      margin-right: 24px;
+   }
+
+   .gift {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .gift .gift-icon {
+      width: 34px;
+   }
+
+   .nav-bar-menu {
+      width: 100%;
+      font-family: "regular.woff2";
+      justify-content: space-evenly;
+      font-size: 13px;
+
+   }
+
+   .menu {
+      padding: 20px;
+   }
+
+   .menu:hover {
+      border-bottom: 2px solid var(--iconColor);
+   }
+
+   .nav-bar {
+      position: static;
+      padding-bottom: 0;
+   }
+
+   .header-section {
+      padding-top: 30px;
+      margin-bottom: 180px;
+   }
+
+   .hsection2 {
+      top: 122px;
+      left: 23px;
+      column-gap: 73px;
+
+   }
+
+   .hcontainer img {
+      width: 145px;
+      height: 139px;
+   }
+
+   .navBar-menu button,
+   .nav-bar .like {
+      display: block;
+   }
+   .nav-bar-menu,.section-display-desktop{
+      display: flex;
+   }
+   .desktop-section1-heading{
+     font-size: 20px;
+     font-weight: 700;
+     font-family: "regular.woff2";
+     width: 100%;
+     justify-content: space-between;
+     color: var(--iconColor);
+   }
+   .section-display-desktop{
+      width: 100%;
+   }
+   .desktop-section1{
+      width: 94%;
+   }
+   .shop-all{
+      font-size: 16px;
+   }
+}
