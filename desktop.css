@@ -78,24 +78,128 @@
    .nav-bar .like {
       display: block;
    }
-   .nav-bar-menu,.section-display-desktop{
+
+   .nav-bar-menu,
+   .section-display-desktop {
       display: flex;
    }
-   .desktop-section1-heading{
-     font-size: 20px;
-     font-weight: 700;
-     font-family: "regular.woff2";
-     width: 100%;
-     justify-content: space-between;
-     color: var(--iconColor);
+
+   .desktop-section1-heading {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: "regular.woff2";
+      width: 100%;
+      justify-content: space-between;
+      color: var(--iconColor);
+      margin-bottom: 20px;
    }
-   .section-display-desktop{
+
+   .section-display-desktop {
       width: 100%;
    }
-   .desktop-section1{
+
+   .desktop-section1 {
       width: 94%;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      margin-bottom: 30px;
    }
-   .shop-all{
+
+   .shop-all {
       font-size: 16px;
+   }
+
+   .sub-division-cards svg {
+      fill: rgb(88, 84, 84);
+      width: 24px;
+      height: 24px;
+      background-color: var(--day);
+      padding: 5px;
+      border-radius: 50px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: none;
+      border: 0.1px solid gray;
+   }
+
+   .sub-division-cards:hover {
+      box-shadow: 1px 1px 10px rgb(156, 153, 153);
+
+   }
+
+   .sub-division-cards:hover>svg {
+      display: block;
+   }
+
+   .sub-division-cards svg:active {
+      stroke: red;
+   }
+
+   .sub-division-cards .card-price {
+      font-family: "regular.woff2";
+      font-size: 13px;
+      font-weight: bold;
+      background-color: var(--day);
+      padding: 3px 8px;
+      width: fit-content;
+      border-radius: 50px;
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+   }
+
+   .sub-division-cards img {
+      width: 100%;
+      border-radius: 8px;
+      height: 100%;
+   }
+
+   .sub-division-cards {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+   }
+
+   .card-title {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "regular.woff2";
+   }
+
+   .card-title div:hover {
+      margin-right: 4px;
+      transition-duration: 0.5s;
+   }
+
+   .card-title {
+      cursor: pointer;
+   }
+
+   .desktop-section1-main-card1,
+   .desktop-section1-main-card2,
+   .desktop-section1-main-card3,
+   .desktop-section1-main-card4,
+   .desktop-section1-main-card5,
+   .desktop-section1-main-card6,
+   .desktop-section1-main-card7,
+   .desktop-section1-main-card8 {
+      align-items: flex-start;
+      width: 100%;
+      height: 100%;
+      /* background-color: gray; */
+   }
+
+   .desktop-section1-main{
+      align-items: flex-start;
+      width: 100%;
+   }
+   .destion-section1-main-sub1 .desktop-section1-main-card1{
+     height: 208px;   
+   }
+   .destion-section1-main-sub1 .sub-division-cards{
+      height: 85%;
    }
 }
